@@ -76,7 +76,7 @@ nav a:link, nav a:visited{
 }
 
 a:hover {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #ffd700;
 }
 
 section h2 {
@@ -131,6 +131,7 @@ section img{
 .alignImg2 {
     text-align: center;
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 .alignText2 {
@@ -138,10 +139,10 @@ section img{
     padding-left: 4%;
     padding-right: 4%;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1000px) {
-
 
     section img{
         width: 400px;
