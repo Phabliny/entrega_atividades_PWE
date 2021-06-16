@@ -44,10 +44,7 @@
     .col-dg-12 {width:100.0%;}
 }
 
-@font-face { 
-    font-family: 'font-staatliches';
-    src: url('/Staatliches-Regular.ttf'); 
-}
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 nav {
     background: rgb(11, 11, 92);
@@ -65,13 +62,14 @@ nav ul li {
 }
 
 nav a:link, nav a:visited{
-    height: 35px;
+    height: 40px;
     text-decoration: none;
-    font-family: 'font-staatliches';
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
     color: white;
     display: inline-block;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     box-sizing: border-box;
 }
 
