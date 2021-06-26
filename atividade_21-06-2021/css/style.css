@@ -1,0 +1,292 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a:link, nav a:visited{
+    height: 35px;
+    text-decoration: none;
+    font-family: 'font-staatliches';
+    color: white;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+}
+
+a:hover {
+    border-bottom: 2px solid lightcyan;
+}
+
+#topo {
+    width: 100%;
+}
+
+
+main h1 {
+    margin-top: 20px;
+    text-align: center;
+} 
+
+main h1:hover {
+    letter-spacing: 4px;
+}
+
+main h3 {
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h3:hover {
+    color:green;
+    transition: 1s
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    height: 760px;
+    justify-content: center;
+    align-items: center;   
+    background-color: lightgray;     
+}
+
+.container > div > img {
+    width: 25%;
+} 
+
+.container > div {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container div p {
+    padding-top: 5px;
+}
+
+main div h2 {
+    color: green;
+}
+
+section p{
+    font-size: 16px;
+}
+.portifolio01 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 10%;
+}
+
+.portifolio01 img {
+    width: 100%;
+}
+
+.texto1 {
+    text-align: justify;
+    padding: 5%;
+}
+
+.texto1 p{
+    padding-bottom: 10px;
+}
+
+.texto1 p:last-child {
+    display: none;
+}
+
+.portifolio02 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin: 0 10%;
+}
+
+.portifolio02 img {
+    width: 100%;
+}
+
+.texto2 p{
+    padding-bottom: 10px;
+}
+
+.texto2 {
+    text-align: justify;
+    padding: 5%;
+}
+
+.texto2 p:first-child {
+    padding-bottom: 10px;
+}
+
+.texto2 p:last-child {
+    display: none;
+}
+
+.portifolio03 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 10%;
+}
+
+.portifolio03 img {
+    width: 100%;
+}
+
+.texto3 {
+    text-align: justify;
+    padding: 5%;
+}
+
+.texto3 p{
+    padding-bottom: 10px;
+}
+
+.texto3 p:last-child {
+    display: none;
+}
+
+footer {
+    padding: 15px;
+    background-color: black;
+}
+
+footer > p {
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+    nav ul {
+        text-align: right;
+    }
+
+    nav a:link, nav a:visited{
+        padding: 10px 15px 10px 15px;
+    }
+
+    .container {
+        flex-direction: row;
+        height: 270px;
+    }
+
+    .portifolio01 {
+        margin: 0px 10%;
+        padding: 10px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        display: flex;     
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .texto1 {
+        width: 650px;
+        padding: 40px 10px 10px 10px;
+        margin: 10px;
+        height: 370px;
+        text-align: justify;
+    } 
+    
+    .portifolio01 img {
+        margin:0px;
+        padding: 0px;
+    }
+    .img1 {
+        width: 35%;
+    }
+
+    .texto1 p:last-child {
+        display: contents;
+        padding: 10%;
+    }
+
+    .portifolio02 {
+        margin: 0px 10%;
+        padding: 10px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        display: flex;     
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .texto2 {
+        width: 650px;
+        padding: 40px 10px 10px 10px;
+        margin: 10px;
+        height: 370px;
+        text-align: justify;
+    } 
+    
+    .portifolio02 img {
+        margin:0px;
+        padding: 0px;
+    }
+    .img2 {
+        padding: 0 20px;
+        width: 34%;
+    }
+
+    .texto2 p:last-child {
+        display: contents;
+        padding: 10%;
+    }
+
+    .portifolio03 {
+        margin: 0px 10%;
+        padding: 10px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        display: flex;     
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .texto3 {
+        width: 650px;
+        padding: 35px 10px 10px 10px;
+        margin-left: 30px;
+        height: 370px;
+        text-align: justify;
+    } 
+    
+    .portifolio03 img {
+        margin:0 20px 0 20px;
+        padding: 0px;
+    }
+    .img3 {
+        width: 30%;
+    }
+
+    .texto3 p:last-child {
+        display: contents;
+        padding: 10%;
+    }
+
+}
