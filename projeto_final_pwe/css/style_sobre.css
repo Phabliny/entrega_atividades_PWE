@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #fff6ff;
+}
+
+header {
+    background-color: #fff6ff;
+}
+
+.redes_sociais{
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+
+.redes_sociais nav ul {
+    list-style: none;
+}
+
+.redes_sociais nav ul li {
+    display: inline-block;
+}
+
+.redes_sociais img{
+    width: 35px;
+    margin:10px;
+}
+
+.redes_sociais a:hover {
+    opacity: 0.7;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.titulo h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+}
+.titulo img {
+    width: 250px;
+    border: 3px solid #fff;
+    border-radius: 200px;
+}
+
+.menu ul {
+    background-color: #fff6ff;
+    list-style: none;
+    text-align: center;
+    border-bottom: 2px solid rgb(249, 184, 244, 0.5);
+    border-top: 2px solid rgb(249, 184, 244, 0.5);
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu a:link, nav a:visited{
+    height: 45px;
+    text-decoration: none;
+    font-family: 'font-staatliches';
+    color: black;
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.menu a:hover {
+    background-color: #fff6ff;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: column;
+}
+
+.biografia {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.biografia h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.biografia p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.foto_formatura {
+    padding-top: 10px;
+}
+
+.foto_formatura img {
+    width: 100%;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cursos {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cursos h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.cursos p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.foto_cursos img {
+    width: 100%;
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: column;
+}
+
+.exposicoes {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exposicoes h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.exposicoes p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.foto_exposicao img{
+    width: 100%;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: #fff6ff;
+    border-top: 2px solid rgb(249, 184, 244, 0.5);
+}
+  
+footer p {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .section1 {
+        width: 1000px;
+        align-items: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .biografia {
+        width: 450px;
+        padding-top: 15px;
+    }
+
+    .foto_formatura {
+        width: 400px;
+        padding-top: 5px;
+        margin-left:15px;
+    }
+
+    .foto_formatura img{
+        width: 350px;
+        border: 3px solid #fff;
+        border-radius: 20px;
+    }
+
+    .section2 {
+        width: 900px;
+        align-items: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .cursos {
+        width: 300px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .foto_cursos {
+        width: 500px;
+        margin-right: 30px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .foto_cursos img{
+        width: 350px;
+        border: 3px solid #fff;
+        border-radius: 20px;
+    }
+
+    .section3 {
+        width: 1000px;
+        align-items: row;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .exposicoes {
+        width: 450px;
+
+    }
+
+    .foto_exposicao {
+        width: 400px;
+        padding-top: 50px;
+        margin-left:15px;
+    }
+
+    .foto_exposicao img{
+        width: 400px;
+        border: 3px solid #fff;
+        border-radius: 20px;
+    }
+
+}

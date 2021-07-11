@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+header {
+    background-color: #fff6ff;
+}
+
+.redes_sociais{
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+
+.redes_sociais nav ul {
+    list-style: none;
+}
+
+.redes_sociais nav ul li {
+    display: inline-block;
+}
+
+.redes_sociais img{
+    width: 35px;
+    margin:10px;
+}
+
+.redes_sociais a:hover {
+    opacity: 0.7;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.titulo h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+}
+.titulo img {
+    width: 250px;
+    border: 3px solid #fff;
+    border-radius: 200px;
+}
+
+.titulo img:hover{
+    opacity: 0.8;
+}
+
+.menu ul {
+    background-color: #fff6ff;
+    list-style: none;
+    text-align: center;
+    border-bottom: 2px solid rgb(249, 184, 244, 0.5);
+    border-top: 2px solid rgb(249, 184, 244, 0.5);
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu a:link, nav a:visited{
+    height: 45px;
+    text-decoration: none;
+    font-family: 'font-staatliches';
+    color: black;
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.menu a:hover {
+    background-color: #fff;
+    color: rgb(249, 184, 244);
+}
+
+section {
+    background-image: url("../imagens/fundo2.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+section div {
+    background-color: rgba(250, 240, 248, 0.856);
+    border: 3px solid transparent;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main h1 {
+    color: #ff00ff;
+    padding-bottom: 8px;
+}
+
+main p {
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+form {
+    display: block;
+}
+
+form label {
+    font-style: bold;
+}
+
+input {
+	display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: block;
+}
+
+#mensagem {
+    color: transparent;
+    background: #fff;
+    border: 1px solid gray;
+}
+
+button {
+    box-sizing: border-box;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    cursor: pointer;
+    font-weight: 200;
+    line-height: 1;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+button:hover {
+    color: black;
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: #fff6ff;
+    border-top: 2px solid rgb(249, 184, 244, 0.5);
+}
+  
+footer p {
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+
+    section {
+        background-size: 23%;
+    }
+    section div {
+        width: 400px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
