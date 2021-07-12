@@ -90,6 +90,10 @@ header {
     align-items: column;
 }
 
+.section1 p {
+    text-align: justify;
+}
+
 main h2 {
     margin-bottom: 5px;
     text-align: center;
@@ -115,6 +119,10 @@ main h2 {
     padding-bottom: 15px;
 }
 
+.section2 p {
+    text-align: justify;
+}
+
 .section2 img {
     width: 100%;
 }
@@ -132,6 +140,10 @@ main a {
 
 .section3 div img {
     width: 100%;
+}
+
+.section3 p {
+    text-align: justify;
 }
 
 .nao_mobile {
