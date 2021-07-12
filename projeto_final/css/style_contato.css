@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Didact Gothic', sans-serif;
+    background-color: #fff6ff;
 }
 
 header {
@@ -81,65 +82,76 @@ header {
     color: rgb(249, 184, 244);
 }
 
-.section1 {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: column;
+section {
+    background-image: url("../imagens/fundo2.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    text-align: left;
+    padding: 20px;
 }
 
-main h2 {
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-.section1 div {
-    padding-bottom: 15px;
-}
-
-.section1 img {
-    width: 100%;
-}
-
-.section2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: column;
-    justify-content: center;
-    padding-bottom: 15px;
-}
-
-.section2 div {
-    padding-bottom: 15px;
-}
-
-.section2 img {
-    width: 100%;
-}
-
-main a {
-    text-decoration: none;
-}
-
-.section3 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: column;
-    justify-content: center;
-}
-
-.section3 div img {
-    width: 100%;
-}
-
-.nao_mobile {
-    display: none;
-}
-
-.texto {
-    width: 85%;
-    margin-left: auto;
+section div {
+    background-color: rgba(250, 240, 248, 0.856);
+    border: 3px solid transparent;
+    border-radius: 15px;
+    padding: 20px;
     margin-right: auto;
+    margin-left: auto;
+}
+
+main h1 {
+    color: #ff00ff;
+    padding-bottom: 8px;
+}
+
+main p {
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+form {
+    display: block;
+}
+
+form label {
+    font-style: bold;
+}
+
+input {
+	display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: block;
+}
+
+#mensagem {
+    color: transparent;
+    background: #fff;
+    border: 1px solid gray;
+}
+
+button {
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 225;
+    line-height: 1;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 650;
+    border-color: cyan;
+    color: #fff;
+    box-shadow: 0 0 25px 25px cyan inset, 0 0 0 0 cyan;
+}
+
+button:hover {
+    color: black;
+    box-shadow: 0 0 5px 0 cyan inset, 0 0 10px 4px cyan;
 }
 
 footer {
@@ -153,42 +165,14 @@ footer p {
 }
 
 @media screen and (min-width: 1000px) {
-    section{
-        width: 1000px;
+
+    section {
+        background-size: 23%;
+    }
+    section div {
+        width: 400px;
+        padding: 20px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .texto {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .section3 {
-        width:1000px;
-        align-items: row;
-    }
-
-    .section3 div {
-        width: 250px;
-        margin-bottom: 15px;
-    }
-
-    .section3 div img {
-        width: 100%;
-        height: 450px;
-    }
-
-    main h2 {
-        text-align: left;
-    }
-
-    .nao_mobile {
-        display: inline-block;
-    }
-
-    h2 a {
-        text-align: left;
     }
 }
