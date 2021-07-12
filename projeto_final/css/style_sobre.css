@@ -51,6 +51,10 @@ header {
     border-radius: 200px;
 }
 
+.titulo img:hover{
+    opacity: 0.8;
+}
+
 .menu ul {
     background-color: #fff6ff;
     list-style: none;
@@ -74,7 +78,8 @@ header {
 }
 
 .menu a:hover {
-    background-color: #fff6ff;
+    background-color: #fff;
+    color: rgb(249, 184, 244);
 }
 
 .section1 {

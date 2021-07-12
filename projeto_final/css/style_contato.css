@@ -82,6 +82,21 @@ header {
     color: rgb(249, 184, 244);
 }
 
+.menu a:link, nav a:visited{
+    height: 45px;
+    text-decoration: none;
+    font-family: 'font-staatliches';
+    color: black;
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.menu a:hover {
+    background-color: #fff;
+    color: rgb(249, 184, 244);
+}
+
 section {
     background-image: url("../imagens/fundo2.jpg");
     background-repeat: repeat;
